@@ -5,7 +5,7 @@ public class ContaTerminal {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
 
-        System.out.println("Olá, qual é o seu nome?");
+        System.out.println("Olá, qual é o seu primeiro nome?");
         String nomeCliente = scanner.next();
 
         System.out.println("Por favor, "+ nomeCliente +" digite o núrmero da sua agência!");
